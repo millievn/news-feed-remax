@@ -1,0 +1,28 @@
+.h1 {
+  font-size: 36px;
+  line-height: 2;
+}
+
+.h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.singleline {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.maxline {
+  -webkit-box-orient: vertical;
+  // stylelint-disable  value-no-vendor-prefix,property-no-vendor-prefix
+  display: -webkit-box;
+  text-overflow: ellipsis;
+}
